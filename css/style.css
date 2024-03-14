@@ -1,0 +1,118 @@
+/* ROOT VARIABLES */
+:root {
+    --head-foot-clr: #2C3E50;
+    --hero-bkg-clr: #1ABC9C;
+    --footer-top: #3A546D;
+}
+
+/* COMMON */
+ul {
+    list-style-type: none;
+}
+
+/* STAR BARS */
+.star_bars::before hr {
+    
+}
+
+/* NAV LIST */
+header {
+    background-color: var(--head-foot-clr);
+}
+
+nav {
+    background-color: var(--head-foot-clr);
+    color: white;
+    height: 80px;
+}
+
+nav button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--head-foot-clr);
+}
+
+.ms_logo {
+    margin: 0;
+    font-weight: 600;
+}
+
+header ul {
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+/* HERO IMAGE SECTION */
+.ms_hero_container {
+    background-color: var(--hero-bkg-clr);
+    color: white;
+}
+
+.ms_hero_container p {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+/* ABOUT SECTION */
+.about {
+    background-color: var(--hero-bkg-clr);
+    color: white;
+}
+
+.about a {
+    background-color: var(--hero-bkg-clr);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER SECTION */
+.ms_bottom_footer {
+    height: 80px;
+}
+
+footer :first-child {
+    background-color: var(--footer-top);
+    color: white;
+}
+.ms_bottom_footer p {
+    color: white;
+    line-height: 80px;
+    font-size: 0.8rem;
+    background-color: var(--head-foot-clr);
+}
+
+.ms_top_footer i {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.ms_icons {
+    gap: 1rem;
+}
+
+.ms_about a {
+    color: var(--hero-bkg-clr);
+    text-decoration: none;
+} 
+
+footer h4 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 0.8em;
+}
